@@ -82,7 +82,7 @@ end
   end
   
   def over?
-    if won? || draw? || full?
+   won? || draw? || full?
   else
     false
   end
