@@ -96,7 +96,9 @@ end
   def play 
     while over? == false
     turn
-    
+  end
+  if won?
+    puts
 end
 
 
