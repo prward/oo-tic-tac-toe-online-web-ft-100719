@@ -101,7 +101,9 @@ end
     puts "Congratulations #{winner}!"
   end
   if draw?
-    puts 
+    puts "Cat's Game!"
+  end
+end
 end
 
 
