@@ -98,7 +98,7 @@ end
     turn
   end
   if won?
-    puts
+    puts 
 end
 
 
