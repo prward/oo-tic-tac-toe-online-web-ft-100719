@@ -94,6 +94,8 @@ end
   end
   
   def play 
+    while over? == false
+    
 end
 
 
