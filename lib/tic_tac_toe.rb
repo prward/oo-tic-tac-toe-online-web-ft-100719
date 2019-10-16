@@ -81,7 +81,7 @@ end
     !(won?) && (full?) 
   end
   
-  def over
+  def over?
     if won? || draw?
   else
     false
