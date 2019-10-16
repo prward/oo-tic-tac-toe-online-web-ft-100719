@@ -98,7 +98,10 @@ end
     turn
   end
   if won?
-    puts 
+    puts "Congratulations #{winner}!"
+  end
+  if draw?
+    puts
 end
 
 
