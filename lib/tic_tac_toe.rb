@@ -74,7 +74,7 @@ class TicTacToe
 end
    
    def full?
-    @board.any?{|x| x == "" || x == " "}
+    !@board.any?{|x| x == "" || x == " "}
   end
   
   def draw?
