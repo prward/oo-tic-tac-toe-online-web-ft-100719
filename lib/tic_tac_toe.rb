@@ -74,7 +74,7 @@ class TicTacToe
   end
   
   def full?
-    @board.all?{|occupied| occupied != " "}
+    @board.any?{|x| x == "" || x == " "}
     end
   end
 end
