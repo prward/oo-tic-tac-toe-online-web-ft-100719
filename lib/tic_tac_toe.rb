@@ -77,6 +77,8 @@ class TicTacToe
     @board.any?{|x| x == "" || x == " "}
     end
   end
+  
+  def draw
 end
 
 
