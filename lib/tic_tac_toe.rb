@@ -74,7 +74,7 @@ class TicTacToe
   end
   
   def full?
-    if @board.all 
+    if @board.all? {|full| full 
 end
 
 
