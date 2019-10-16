@@ -31,6 +31,34 @@ class TicTacToe
   def move(position, mark)
     @board[position] = mark
   end
+  
+  def position_taken?
     
     
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
