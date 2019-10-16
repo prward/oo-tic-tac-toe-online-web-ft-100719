@@ -80,6 +80,14 @@ end
   def draw?
     !(won?) && (full?) 
   end
+  
+  def over
+    if won? || draw?
+  else
+    false
+  end
+end
+ 
  
 end
 
