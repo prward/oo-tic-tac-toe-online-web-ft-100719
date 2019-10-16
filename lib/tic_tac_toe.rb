@@ -83,9 +83,6 @@ end
   
   def over?
    won? || draw? || full?
-  else
-    false
-  end
 end
  
  
