@@ -101,7 +101,7 @@ end
     puts "Congratulations #{winner}!"
   end
   if draw?
-    puts
+    puts 
 end
 
 
