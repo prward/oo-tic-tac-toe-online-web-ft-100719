@@ -82,10 +82,11 @@ end
   end
   
   def over?
-   won? || draw? || full?
-end
- 
- 
+    won? || draw? || full?
+  end
+  
+  def winner
+    
 end
 
 
