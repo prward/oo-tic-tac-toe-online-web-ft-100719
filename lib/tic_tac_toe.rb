@@ -87,6 +87,7 @@ end
   
   def winner
     if won? 
+      @board {|x| 
 end
 
 
