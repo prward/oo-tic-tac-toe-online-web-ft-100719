@@ -74,7 +74,7 @@ class TicTacToe
   end
   
   def full?
-    if @board.all? {|full| full != " "} 
+    if @board.all? {|busy| busy != " "} 
     end
   end
 end
